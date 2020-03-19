@@ -15,6 +15,8 @@
 		2C5F941823FC494300AB816D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5F941623FC494300AB816D /* LaunchScreen.storyboard */; };
 		2C5F942323FC494400AB816D /* In_Class_AlertsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5F942223FC494400AB816D /* In_Class_AlertsTests.swift */; };
 		2C5F942E23FC494400AB816D /* In_Class_AlertsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5F942D23FC494400AB816D /* In_Class_AlertsUITests.swift */; };
+		2C81BB0C23FEEC73008AD98F /* r2-d2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2C81BB0B23FEEC73008AD98F /* r2-d2.wav */; };
+		2C81BB0F24058A88008AD98F /* SecondAlertsVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C81BB0D24058A87008AD98F /* SecondAlertsVCViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		2C5F942923FC494400AB816D /* In Class AlertsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "In Class AlertsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C5F942D23FC494400AB816D /* In_Class_AlertsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = In_Class_AlertsUITests.swift; sourceTree = "<group>"; };
 		2C5F942F23FC494400AB816D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C81BB0B23FEEC73008AD98F /* r2-d2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "r2-d2.wav"; sourceTree = "<group>"; };
+		2C81BB0E24058A87008AD98F /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = Base.lproj/SecondAlertsVCViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 				2C5F942123FC494400AB816D /* In Class AlertsTests */,
 				2C5F942C23FC494400AB816D /* In Class AlertsUITests */,
 				2C5F940923FC493B00AB816D /* Products */,
+				2C81BB0B23FEEC73008AD98F /* r2-d2.wav */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +107,7 @@
 				2C5F940B23FC493B00AB816D /* AppDelegate.swift */,
 				2C5F940D23FC493B00AB816D /* SceneDelegate.swift */,
 				2C5F940F23FC493B00AB816D /* ViewController.swift */,
+				2C81BB0D24058A87008AD98F /* SecondAlertsVCViewController.swift */,
 				2C5F941123FC493B00AB816D /* Main.storyboard */,
 				2C5F941423FC494300AB816D /* Assets.xcassets */,
 				2C5F941623FC494300AB816D /* LaunchScreen.storyboard */,
@@ -232,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C81BB0C23FEEC73008AD98F /* r2-d2.wav in Resources */,
 				2C5F941823FC494300AB816D /* LaunchScreen.storyboard in Resources */,
 				2C5F941523FC494300AB816D /* Assets.xcassets in Resources */,
 				2C5F941323FC493B00AB816D /* Main.storyboard in Resources */,
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C81BB0F24058A88008AD98F /* SecondAlertsVCViewController.swift in Sources */,
 				2C5F941023FC493B00AB816D /* ViewController.swift in Sources */,
 				2C5F940C23FC493B00AB816D /* AppDelegate.swift in Sources */,
 				2C5F940E23FC493B00AB816D /* SceneDelegate.swift in Sources */,
@@ -311,6 +319,14 @@
 				2C5F941723FC494300AB816D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2C81BB0D24058A87008AD98F /* SecondAlertsVCViewController.swift */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C81BB0E24058A87008AD98F /* Base */,
+			);
+			name = SecondAlertsVCViewController.swift;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
